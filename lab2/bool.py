@@ -1,17 +1,16 @@
 age = int(input("Введите ваш возраст: "))
 
-is_adult = age >= 18  # Булево значение
+isAdult = age >= 18 
 
-if is_adult:
+if isAdult:
     print("Доступ разрешен.")
 else:
     print("Доступ запрещен.")
 
-# Булевы значения в операциях
-is_raining = True
-have_umbrella = False
+isRaining = True
+haveUmbrella = False
 
-if is_raining and not have_umbrella:
+if isRaining and not haveUmbrella:
     print("Возьмите зонт!")
 else:
     print("Можно идти без зонта.")

@@ -26,4 +26,4 @@ rect = Rectangle(3, 4)
 
 shape.area()
 square.area()
-rect.area() 
+rect.area()

@@ -125,6 +125,8 @@ movies = [
 
 listtt = movielist(movies)
 
+print()
+
 for i in listtt:
     print(i['name'], i['imdb'], i['category'])
 

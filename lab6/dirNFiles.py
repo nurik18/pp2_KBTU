@@ -39,7 +39,7 @@ print(f'number of lines : {lineCount}')
 # 5
 data = ['#hehe', '#haha', '#hoho']
 
-with open(filename, 'w', encoding = 'utf-8') as file:
+with open(filename, 'a', encoding = 'utf-8') as file:
     for item in data:
         file.write(item + '\n')
 print('datas succesfully written')
